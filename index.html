@@ -6,10 +6,15 @@
   <a href="https://www.google.com">Click Here to go to Google!</a>
 <br />  OR <br />
   <a href="https://m.youtube.com/channel/UCumwY7a2Q85AIK43c4JOLiw">Click HERE to check out my channel!</a>
+  <br /> <a href= var responses = ["https://www.google.com", "htps://www.youtube.com"]
+    var rand =  responses[Math.floor(Math.random() * responses.length)];
+    message.channel.send("Flipping...").then((m) => m.edit(rand));
+  }'
 </p>
   <script>
     const lol = prompt('Hi, how would you rate this website on a scale of 1 - 10?')
    
     alert(`Thank You, your result (${lol}) has been recorded`)
-    </script>
+  
+</script>
       
